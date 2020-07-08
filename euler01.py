@@ -39,7 +39,8 @@ def findSumShort(arg1):
     a = arg1
     sum = 0
     for i in range(a):
-        if (i % 3 == 0) or (i % 5 == 0):
+        if (i % 3 == 0) or (i % 5 == 0): # I do not have to think about duplicates because this statement check element at the same time.
+                                         # For example, if i = 15 then T or T is True so 15 will be added sum.
             sum += i
     print(sum)
 
