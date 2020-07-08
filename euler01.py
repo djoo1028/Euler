@@ -34,5 +34,15 @@ def findSum(arg1):
     SSum = sum(noDup)          # Sum all numbers in list
     print(SSum)     
 
+#Second idea(shorter version)
+def findSumShort(arg1):
+    a = arg1
+    sum = 0
+    for i in range(a):
+        if (i % 3 == 0) or (i % 5 == 0):
+            sum += i
+    print(sum)
+
 x = int(input())
 findSum(x)
+findSumShort(x)
