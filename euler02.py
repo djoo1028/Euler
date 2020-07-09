@@ -9,6 +9,8 @@ By starting with 1 and 2, the first 10 terms will be:
 By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.
 
 '''
+# I wanted to leave my incorrect approach to review my code in the future
+# This code will give memory error because it takes a lot of memory spaces.
 
 # def fibonacci(arg1):
 #     a = arg1
@@ -35,6 +37,8 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
 #
 # fibonacci(x)
 
+
+#Second thought
 x = 1
 y = 2
 result = 2
